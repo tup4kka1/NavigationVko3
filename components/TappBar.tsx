@@ -1,6 +1,4 @@
-import { NativeStackHeaderProps } from '@react-navigation/native-stack';
 import { Appbar } from "react-native-paper";
-import { getHeaderTitle } from '@react-navigation/elements';
 import { StackHeaderProps } from "@react-navigation/stack";
 
 
