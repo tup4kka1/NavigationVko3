@@ -9,7 +9,7 @@ export default function TappBar({route, options, back, navigation} : StackHeader
   return (
     <Appbar.Header>
       {back ? <Appbar.BackAction onPress={navigation.goBack} /> : null}
-      <Appbar.Content title={"Navigationbar"} />
+      <Appbar.Content title={"Appbar"} />
       {route.name === "Home" ? (<Appbar.Action icon="arrow-right" onPress={() => navigation.navigate("Second")}/>) : null}
     </Appbar.Header>
   );
